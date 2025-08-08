@@ -1,0 +1,171 @@
+{
+  "individual": [
+    {
+      "configId": 1272,
+      "name": "user\n",
+      "additionalDisplayClass": "left-info",
+      "id": -12720,
+      "position": 30,
+      "type": "user",
+      "conditions": {
+        "multiple": false,
+        "required": true
+      }
+    },
+    {
+      "configId": 1258,
+      "name": "Người yêu cầu\n",
+      "additionalDisplayClass": "left-info",
+      "id": -12580,
+      "position": 60,
+      "type": "",
+      "conditions": {
+        "required": false
+      }
+    },
+    {
+      "configId": 1273,
+      "name": "Chức vụ",
+      "additionalDisplayClass": "left-info",
+      "id": -12730,
+      "position": 70,
+      "type": "",
+      "conditions": {
+        "required": false
+      }
+    },
+    {
+      "configId": 1259,
+      "name": "Phòng/ Xí nghiệp\n",
+      "additionalDisplayClass": "left-info",
+      "id": -12590,
+      "position": 80,
+      "type": "",
+      "conditions": {
+        "required": false
+      }
+    },
+    {
+      "configId": 1260,
+      "name": "Ngày yêu cầu",
+      "additionalDisplayClass": "left-info",
+      "id": -12600,
+      "position": 90,
+      "type": "date",
+      "conditions": {
+        "required": false
+      }
+    },
+    {
+      "configId": 1261,
+      "name": "Lý do",
+      "additionalDisplayClass": "left-info",
+      "id": -12610,
+      "position": 100,
+      "type": "textarea",
+      "conditions": {
+        "max-length": 255,
+        "required": false,
+        "min-length": 0
+      }
+    },
+    {
+      "configId": 1274,
+      "name": "Địa điểm đi:",
+      "additionalDisplayClass": "left-info",
+      "id": -12740,
+      "position": 110,
+      "type": "textarea",
+      "conditions": {
+        "max-length": 255,
+        "required": false,
+        "min-length": 0
+      }
+    }
+  ],
+  "table": {
+    "configId": 1265,
+    "columns": [
+      {
+        "configId": 1266,
+        "name": "STT",
+        "additionalDisplayClass": "left-info",
+        "id": -12660,
+        "position": 10,
+        "type": "number",
+        "conditions": {
+          "required": false
+        }
+      },
+      {
+        "configId": 1280,
+        "name": "Loại xe",
+        "additionalDisplayClass": "left-info",
+        "id": -12800,
+        "position": 30,
+        "type": "select",
+        "conditions": {
+          "data": [
+            { "text": "Xe Mazda 3-85", "value": "Xe Mazda 3-85" },
+            { "text": "Xe Mazda 3-83", "value": "Xe Mazda 3-83" },
+            { "text": "Xe Ford Transit-90", "value": "Xe Ford Transit-90" },
+            { "text": "Xe Ford Transit-91", "value": "Xe Ford Transit-91" },
+            { "text": "Xe Toyota Hilux", "value": "Xe Toyota Hilux" }
+          ],
+          "multiple": false,
+          "required": false
+        }
+      },
+      {
+        "configId": 1268,
+        "name": "Ngày giờ đi",
+        "additionalDisplayClass": "left-info",
+        "id": -12680,
+        "position": 40,
+        "type": "datetime",
+        "conditions": {
+          "required": false
+        }
+      },
+      {
+        "configId": 1270,
+        "name": "Ngày giờ về",
+        "additionalDisplayClass": "left-info",
+        "id": -12700,
+        "position": 50,
+        "type": "datetime",
+        "conditions": {
+          "required": false
+        }
+      },
+      {
+        "staticContent": "<p style='font-size: 12px; color: #000080'><i>P.HCTC cập nhật</i></p>",
+        "configId": 1269,
+        "name": "Số công tơ mét đầu\n",
+        "additionalDisplayClass": "left-info",
+        "id": -12690,
+        "position": 60,
+        "type": "number",
+        "conditions": {
+          "required": false
+        }
+      },
+      {
+        "staticContent": "<p style='font-size: 12px; color: #000080'><i>P.HCTC cập nhật</i></p>",
+        "configId": 1278,
+        "name": "Số công tơ mét cuối",
+        "additionalDisplayClass": "left-info",
+        "id": -12780,
+        "position": 70,
+        "type": "number",
+        "conditions": {
+          "required": false
+        }
+      }
+    ],
+    "values": [],
+    "name": "DANH SÁCH XE YÊU CẦU",
+    "position": 12650,
+    "id": -12650
+  }
+}

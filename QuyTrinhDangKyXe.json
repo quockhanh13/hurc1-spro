@@ -1,0 +1,266 @@
+{
+    "individual": [
+        {
+            "configId": 1000,
+            "name": "Congtyfeed",
+            "type": "master_data_orgchart_location_user_location",
+            "value": "",
+            "display": false,
+            "conditions": {
+                "required": false,
+                "locationRelated": true,
+                "min-length": 1,
+                "max-length": 1000
+            },
+            "additionalDisplayClass": "left-info",
+            "id": -1000,
+            "position": 10
+        },
+        {
+            "configId": 1001,
+            "name": "THÔNG TIN NGƯỜI YÊU CẦU",
+            "type": "splitter",
+            "id": -1001,
+            "position": 20
+        },
+        {
+            "configId": 1002,
+            "name": "Người yêu cầu",
+            "type": "master_data_hurc1_orgchart",
+            "valuefeeder": "TicketOwner",
+            "value": "",
+            "disabled": false,
+            "conditions": {
+                "required": true,
+                "min-length": 1,
+                "max-length": 1000
+            },
+            "additionalDisplayClass": "left-info",
+            "id": -1002,
+            "position": 30
+        },
+        {
+            "configId": 1003,
+            "name": "Đơn vị/ Phòng ban",
+            "type": "master_data_hurc1_orgchart_phong_ban",
+            "value": "",
+            "conditions": {
+                "required": true,
+                "min-length": 1,
+                "max-length": 1000
+            },
+            "additionalDisplayClass": "right-info",
+            "id": -1003,
+            "position": 40
+        },
+        {
+            "configId": 1004,
+            "name": "Mã nhân viên",
+            "type": "master_data_hurc1_orgchart_manv",
+            "value": "",
+            "conditions": {
+                "required": true,
+                "min-length": 1,
+                "max-length": 1000
+            },
+            "additionalDisplayClass": "left-info",
+            "id": -1004,
+            "position": 50
+        },
+        {
+            "configId": 1005,
+            "name": "Công ty",
+            "type": "master_data_hurc1_orgchart_cong_ty",
+            "value": "",
+            "display": false,
+            "conditions": {
+                "required": true,
+                "min-length": 1,
+                "max-length": 1000
+            },
+            "additionalDisplayClass": "left-info",
+            "id": -1005,
+            "position": 60
+        },
+        {
+            "configId": 1006,
+            "name": "Ngày yêu cầu",
+            "additionalDisplayClass": "left-info",
+            "id": -1006,
+            "position": 70,
+            "type": "date",
+            "conditions": {
+                "required": false
+            }
+        },
+        {
+            "configId": 1007,
+            "name": "Lý do",
+            "additionalDisplayClass": "left-info",
+            "id": -1007,
+            "position": 80,
+            "type": "textarea",
+            "conditions": {
+                "max-length": 255,
+                "required": false,
+                "min-length": 0
+            }
+        },
+        {
+            "configId": 1008,
+            "name": "Địa điểm đi:",
+            "additionalDisplayClass": "left-info",
+            "id": -1008,
+            "position": 90,
+            "type": "textarea",
+            "conditions": {
+                "max-length": 255,
+                "required": false,
+                "min-length": 0
+            }
+        },
+        {
+            "configId": 1100,
+            "name": "DANH SÁCH XE YÊU CẦU",
+            "type": "splitter",
+            "id": -1109,
+            "position": 100
+        },
+        {
+            "type": "table",
+            "configId": 1400,
+            "columns": [
+                {
+                    "configId": 1401,
+                    "name": "STT",
+                    "additionalDisplayClass": "left-info",
+                    "id": -14001,
+                    "position": 10,
+                    "type": "number",
+                    "conditions": {
+                    "required": false
+                    }
+                },
+                {
+                    "configId": 1402,
+                    "name": "Loại xe",
+                    "additionalDisplayClass": "left-info",
+                    "id": -14002,
+                    "position": 20,
+                    "type": "select",
+                    "conditions": {
+                    "data": [
+                        { "text": "Xe Mazda 3-85", "value": "Xe Mazda 3-85" },
+                        { "text": "Xe Mazda 3-83", "value": "Xe Mazda 3-83" },
+                        { "text": "Xe Ford Transit-90", "value": "Xe Ford Transit-90" },
+                        { "text": "Xe Ford Transit-91", "value": "Xe Ford Transit-91" },
+                        { "text": "Xe Toyota Hilux", "value": "Xe Toyota Hilux" }
+                    ],
+                    "multiple": false,
+                    "required": false
+                    }
+                },
+                {
+                    "configId": 1403,
+                    "name": "Ngày giờ đi",
+                    "additionalDisplayClass": "left-info",
+                    "id": -14003,
+                    "position": 30,
+                    "type": "datetime",
+                    "conditions": {
+                    "required": false
+                    }
+                },
+                {
+                    "configId": 1404,
+                    "name": "Ngày giờ về",
+                    "additionalDisplayClass": "left-info",
+                    "id": -14004,
+                    "position": 40,
+                    "type": "datetime",
+                    "conditions": {
+                    "required": false
+                    }
+                },
+                {
+                    "configId": 1405,
+                    "staticContent": "<p style='font-size: 12px; color: #000080'><i>P.HCTC cập nhật</i></p>",
+                    "name": "Số công tơ mét đầu\n",
+                    "additionalDisplayClass": "left-info",
+                    "id": -14005,
+                    "position": 50,
+                    "type": "number",
+                    "conditions": {
+                    "required": false
+                    }
+                },
+                {
+                    "configId": 1406,
+                    "staticContent": "<p style='font-size: 12px; color: #000080'><i>P.HCTC cập nhật</i></p>",
+                    "name": "Số công tơ mét cuối",
+                    "additionalDisplayClass": "left-info",
+                    "id": -14006,
+                    "position": 60,
+                    "type": "number",
+                    "conditions": {
+                    "required": false
+                    }
+                }
+            ],
+            "values": [],
+            "name": "DANH SÁCH XE YÊU CẦU",
+            "position": 1100,
+            "id": -14000
+        },
+        {
+            "configId": 1420,
+            "name": "THAM GIA PHÊ DUYỆT",
+            "type": "splitter",
+            "display": true,
+            "id": -1420,
+            "position": 100
+        },
+        {
+            "configId": 1421,
+            "name": "TP người yêu cầu",
+            "type": "master_data_hurc1_orgchart_tp",
+            "staticContent": "<p style='font-size: 12px; color: #f44842'><i></i></p>",
+            "value": "",
+            "display": true,
+            "conditions": {
+                "required": true
+            },
+            "additionalDisplayClass": "left-info",
+            "id": -1420,
+            "position": 110
+        },
+        {
+            "configId": 1422,
+            "name": "Phòng HC-TC",
+            "type": "master_data_hurc1_orgchart_phong_ban_01",
+            "staticContent": "<p style='font-size: 12px; color: #f44842'><i></i></p>",
+            "value": "HC-TC",
+            "display": true,
+            "conditions": {
+                "required": true
+            },
+            "additionalDisplayClass": "left-info",
+            "id": -1422,
+            "position": 120
+        },
+        {
+            "configId": 1423,
+            "name": "Trưởng Phòng HC-TC",
+            "type": "master_data_hurc1_orgchart_tp_01",
+            "staticContent": "<p style='font-size: 12px; color: #f44842'><i></i></p>",
+            "value": "",
+            "display": true,
+            "conditions": {
+                "required": true
+            },
+            "additionalDisplayClass": "right-info",
+            "id": -1423,
+            "position": 130
+        }
+    ]
+}

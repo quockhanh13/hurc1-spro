@@ -1,0 +1,46 @@
+  {
+    "name": "THAM GIA PHÊ DUYỆT",
+    "type": "splitter",
+    "display": false,
+    "id": -700,
+    "position": -700
+  },
+  {
+    "name": "TP người yêu cầu",
+    "type": "master_data_hurc1_orgchart_tp",
+    "staticContent": "<p style='font-size: 12px; color: #f44842'><i></i></p>",
+    "value": "",
+    "display": false,
+    "conditions": {
+      "required": true
+    },
+    "additionalDisplayClass": "left-info",
+    "id": -690,
+    "position": -690
+  },
+  {
+    "name": "Phòng HC-TC",
+    "type": "master_data_hurc1_orgchart_phong_ban_01",
+    "staticContent": "<p style='font-size: 12px; color: #f44842'><i></i></p>",
+    "value": "HC-TC",
+    "display": false,
+    "conditions": {
+      "required": true
+    },
+    "additionalDisplayClass": "left-info",
+    "id": -675,
+    "position": -675
+  },
+  {
+    "name": "Trưởng Phòng HC-TC",
+    "type": "master_data_hurc1_orgchart_tp_01",
+    "staticContent": "<p style='font-size: 12px; color: #f44842'><i></i></p>",
+    "value": "",
+    "display": false,
+    "conditions": {
+      "required": true
+    },
+    "additionalDisplayClass": "right-info",
+    "id": -670,
+    "position": -670
+  }

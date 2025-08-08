@@ -1,0 +1,354 @@
+{
+  "individual": [
+    {
+      "name": "Congtyfeed",
+      "type": "master_data_orgchart_location_user_location",
+      "value": "",
+      "display": false,
+      "conditions": {
+        "required": false,
+        "locationRelated": true,
+        "min-length": 1,
+        "max-length": 1000
+      },
+      "additionalDisplayClass": "left-info",
+      "id": -2000,
+      "position": -2000
+    },
+    {
+      "name": "THÔNG TIN NGƯỜI YÊU CẦU",
+      "type": "splitter",
+      "id": -1000,
+      "position": -1000
+    },
+    {
+      "name": "Người yêu cầu",
+      "type": "master_data_hurc1_orgchart",
+      "valuefeeder": "TicketOwner",
+      "value": "",
+      "disabled": false,
+      "conditions": {
+        "required": true,
+        "min-length": 1,
+        "max-length": 1000
+      },
+      "additionalDisplayClass": "left-info",
+      "id": -990,
+      "position": -990
+    },
+    {
+      "name": "Đơn vị/ Phòng ban",
+      "type": "master_data_hurc1_orgchart_phong_ban",
+      "value": "",
+      "conditions": {
+        "required": true,
+        "min-length": 1,
+        "max-length": 1000
+      },
+      "additionalDisplayClass": "right-info",
+      "id": -980,
+      "position": -990
+    },
+    {
+      "name": "Mã nhân viên",
+      "type": "master_data_hurc1_orgchart_manv",
+      "value": "",
+      "conditions": {
+        "required": true,
+        "min-length": 1,
+        "max-length": 1000
+      },
+      "additionalDisplayClass": "left-info",
+      "id": -955,
+      "position": -955
+    },
+    {
+      "name": "Công ty",
+      "type": "master_data_hurc1_orgchart_cong_ty",
+      "value": "",
+      "display": false,
+      "conditions": {
+        "required": true,
+        "min-length": 1,
+        "max-length": 1000
+      },
+      "additionalDisplayClass": "left-info",
+      "id": -970,
+      "position": -970
+    },
+    {
+      "name": "THÔNG TIN XIN NGHỈ",
+      "type": "splitter",
+      "id": -900,
+      "position": -900
+    },
+    {
+      "name": "Số yêu cầu đã được duyệt",
+      "type": "master_data_lich_su_phep_ticket_id",
+      "staticContent": "<p style='font-size: 12px; color: #f44842'><i></i></p>",
+      "value": "",
+      "conditions": {
+        "required": true,
+        "min-length": 1,
+        "max-length": 1000
+      },
+      "additionalDisplayClass": "left-info",
+      "id": -895,
+      "position": -895
+    },
+    {
+      "name": "Số ngày nghỉ đã được duyệt",
+      "type": "master_data_lich_su_phep_sl_ngay_nghi",
+      "staticContent": "<p style='font-size: 12px; color: #f44842'><i></i></p>",
+      "value": "",
+      "conditions": {
+        "required": true,
+        "min-length": 1,
+        "max-length": 1000
+      },
+      "additionalDisplayClass": "left-info",
+      "id": -890,
+      "position": -890
+    },
+    {
+      "name": "Ngày duyệt đơn xin nghỉ phép",
+      "type": "master_data_lich_su_phep_ngay_duyet_don",
+      "staticContent": "<p style='font-size: 12px; color: #f44842'><i></i></p>",
+      "value": "",
+      "conditions": {
+        "required": true,
+        "min-length": 1,
+        "max-length": 1000
+      },
+      "additionalDisplayClass": "right-info",
+      "id": -880,
+      "position": -880
+    },
+    {
+      "name": "Số ngày nghỉ còn lại",
+      "type": "master_data_ngayphep_so_ngay_phep",
+      "staticContent": "<p style='font-size: 12px; color: #f44842'><i></i></p>",
+      "value": "",
+      "display": false,
+      "conditions": {
+        "required": true,
+        "min-length": 1,
+        "max-length": 1000
+      },
+      "additionalDisplayClass": "left-info",
+      "id": -870,
+      "position": -870
+    },
+    {
+      "name": "Số Ngày đăng ký",
+      "type": "master_data_ngayphep_sl_dangky",
+      "staticContent": "<p style='font-size: 12px; color: #f44842'><i></i></p>",
+      "value": "",
+      "display": false,
+      "conditions": {
+        "required": true,
+        "min-length": 1,
+        "max-length": 1000
+      },
+      "additionalDisplayClass": "left-info",
+      "id": -865,
+      "position": -865
+    },
+    {
+      "name": "Tống số phép sau khi hoàn",
+      "display": false,
+      "disabled": true,
+      "type": "expression",
+      "staticContent": "<p style='font-size: 12px; color: #f44842'><i></i></p>",
+      "value": "",
+      "expressionConfig": {
+        "type": "ARITHMETIC",
+        "operands": [
+          {
+            "type": "simple",
+            "data-config": {
+              "dataset": "INDIVIDUAL",
+              "infoId": -890
+            }
+          },
+          {
+            "type": "simple",
+            "data-config": {
+              "dataset": "INDIVIDUAL",
+              "infoId": -870
+            }
+          }
+        ],
+        "operator": "ADD"
+      },
+      "conditions": {
+        "required": true,
+        "min-length": 1
+      },
+      "additionalDisplayClass": "right-info",
+      "id": -866,
+      "position": -866
+    },
+    {
+      "name": "Tống số DK sau khi hoàn",
+      "display": false,
+      "disabled": true,
+      "type": "expression",
+      "staticContent": "<p style='font-size: 12px; color: #f44842'><i></i></p>",
+      "value": "",
+      "expressionConfig": {
+        "type": "ARITHMETIC",
+        "operands": [
+          {
+            "type": "simple",
+            "data-config": {
+              "dataset": "INDIVIDUAL",
+              "infoId": -865
+            }
+          },
+          {
+            "type": "simple",
+            "data-config": {
+              "dataset": "INDIVIDUAL",
+              "infoId": -890
+            }
+          }
+        ],
+        "operator": "SUBTRACT"
+      },
+      "conditions": {
+        "required": true,
+        "min-length": 1
+      },
+      "additionalDisplayClass": "left-info",
+      "id": -864,
+      "position": -864
+    },
+    {
+      "name": "Nghỉ từ ngày",
+      "type": "master_data_lich_su_phep_tu_ngay",
+      "staticContent": "<p style='font-size: 12px; color: #f44842'><i></i></p>",
+      "value": "",
+      "conditions": {
+        "required": true,
+        "min-length": 1
+      },
+      "additionalDisplayClass": "left-info",
+      "id": -860,
+      "position": -860
+    },
+    {
+      "name": "Đến ngày",
+      "type": "master_data_lich_su_phep_den_ngay",
+      "staticContent": "<p style='font-size: 12px; color: #f44842'><i></i></p>",
+      "value": "",
+      "conditions": {
+        "required": true,
+        "min-length": 1
+      },
+      "additionalDisplayClass": "right-info",
+      "id": -850,
+      "position": -860
+    },
+    {
+      "name": "Lý do",
+      "type": "textarea",
+      "staticContent": "<p style='font-size: 12px; color: #f44842'><i></i></p>",
+      "value": "",
+      "conditions": {
+        "required": true,
+        "min-length": 1,
+        "displayCondition": {
+          "idCondition": -890,
+          "valueCondition": "Đơn xin nghỉ"
+        }
+      },
+      "additionalDisplayClass": "left-info",
+      "id": -840,
+      "position": -840
+    },
+    {
+      "name": "Ghi chú",
+      "type": "textarea",
+      "staticContent": "<p style='font-size: 12px; color: #f44842'><i></i></p>",
+      "value": "",
+      "conditions": {
+        "required": false
+      },
+      "additionalDisplayClass": "left-info",
+      "id": -720,
+      "position": -720
+    },
+    {
+      "name": "Đính kèm file",
+      "type": "upload",
+      "staticContent": "<p style='font-size: 12px; color: #f44842'><i></i></p>",
+      "value": "",
+      "conditions": {
+        "required": false
+      },
+      "additionalDisplayClass": "right-info",
+      "id": -710,
+      "position": -710
+    },
+    {
+      "name": "THAM GIA PHÊ DUYỆT",
+      "type": "splitter",
+      "display": false,
+      "id": -700,
+      "position": -700
+    },
+    {
+      "name": "TP người yêu cầu",
+      "type": "master_data_hurc1_orgchart_tp",
+      "staticContent": "<p style='font-size: 12px; color: #f44842'><i></i></p>",
+      "value": "",
+      "display": false,
+      "conditions": {
+        "required": true
+      },
+      "additionalDisplayClass": "left-info",
+      "id": -690,
+      "position": -690
+    },
+    {
+      "name": "Phụ trách kiểm tra ngày phép",
+      "type": "user",
+      "value": "linhtk",
+      "display": false,
+      "staticContent": "<p style='font-size: 12px; color: #f44842'><i></i></p>",
+      "conditions": {
+        "required": true
+      },
+      "additionalDisplayClass": "right-info",
+      "id": -680,
+      "position": -690
+    },
+    {
+      "name": "Phòng HC-TC",
+      "type": "master_data_hurc1_orgchart_phong_ban_01",
+      "staticContent": "<p style='font-size: 12px; color: #f44842'><i></i></p>",
+      "value": "HC-TC",
+      "display": false,
+      "conditions": {
+        "required": true
+      },
+      "additionalDisplayClass": "left-info",
+      "id": -675,
+      "position": -675
+    },
+    {
+      "name": "Trưởng Phòng HC-TC",
+      "type": "master_data_hurc1_orgchart_tp_01",
+      "staticContent": "<p style='font-size: 12px; color: #f44842'><i></i></p>",
+      "value": "",
+      "display": false,
+      "conditions": {
+        "required": true
+      },
+      "additionalDisplayClass": "right-info",
+      "id": -670,
+      "position": -670
+    }
+  ]
+}
