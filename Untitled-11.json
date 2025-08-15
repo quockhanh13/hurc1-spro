@@ -1,0 +1,1321 @@
+{
+  "relatives" : [
+    {
+      "owner" : "admin",
+      "summary" : "Ticket Detail",
+      "configId" : 164,
+      "roles" : {
+        "assigner" : [ ],
+        "implementer" : [ ]
+      },
+      "autocreate" : true,
+      "id" : -1640,
+      "type" : "ticket",
+      "isDone" : true,
+      "status" : "Opened",
+      "role_config" : { }
+    },
+    {
+      "owner" : "",
+      "summary" : "Đội Trưởng",
+      "roles" : {
+        "assigner" : [ ],
+        "implementer" : [ ]
+      },
+      "sla" : {
+        "res" : 2,
+        "fix" : 8
+      },
+      "type" : "phase",
+      "isDone" : false,
+      "printable" : true,
+      "phaseType" : "Implement",
+      "print-config" : {
+        "filename" : "Phiếu kiểm tra hệ thống Telecom 1 Năm",
+        "img-urls" : [
+          "https://hurc1.fptspro.com/plugins/servlet/sms-attachment?id=213&fileName=CheckboxCoTick.png",
+          "https://hurc1.fptspro.com/plugins/servlet/sms-attachment?id=214&fileName=CheckboxKoTick.png",
+          "https://hurc1-uat.fptspro.com/plugins/servlet/sms-attachment?id=355&fileName=LogoMetro.png"
+        ],
+        "parameters" : [
+          {
+            "data-config" : {
+              "format" : "dd",
+              "property-name" : "now",
+              "type" : "TICKET_PROPERTY"
+            },
+            "name" : "dd"
+          },
+          {
+            "data-config" : {
+              "format" : "MM",
+              "property-name" : "now",
+              "type" : "TICKET_PROPERTY"
+            },
+            "name" : "mm"
+          },
+          {
+            "data-config" : {
+              "format" : "yyyy",
+              "property-name" : "now",
+              "type" : "TICKET_PROPERTY"
+            },
+            "name" : "yyyy"
+          },
+          {
+            "data-config" : {
+              "infoId" : -10,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "hangMuc"
+          },
+          {
+            "data-config" : {
+              "property-name" : "id",
+              "type" : "TICKET_PROPERTY"
+            },
+            "name" : "id"
+          },
+          {
+            "data-config" : {
+              "format" : "dd/MM/yyyy",
+              "property-name" : "now",
+              "type" : "TICKET_PROPERTY"
+            },
+            "name" : "currentDate"
+          },
+          {
+            "data-config" : {
+              "infoId" : -20,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "ngay"
+          },
+          {
+            "data-config" : {
+              "infoId" : -30,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "nguoiKiemTra"
+          },
+          {
+            "data-config" : {
+              "infoId" : -40,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "doiTruong"
+          },
+          {
+            "data-config" : {
+              "infoId" : -50,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "nguoiGiamSat"
+          },
+          {
+            "data-config" : {
+              "infoId" : -61,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select61"
+          },
+          {
+            "data-config" : {
+              "infoId" : -62,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select62"
+          },
+          {
+            "data-config" : {
+              "infoId" : -63,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox63"
+          },
+          {
+            "data-config" : {
+              "infoId" : -64,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox64"
+          },
+          {
+            "data-config" : {
+              "infoId" : -65,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select65"
+          },
+          {
+            "data-config" : {
+              "infoId" : -66,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox66"
+          },
+          {
+            "data-config" : {
+              "infoId" : -67,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox67"
+          },
+          {
+            "data-config" : {
+              "infoId" : -68,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select68"
+          },
+          {
+            "data-config" : {
+              "infoId" : -69,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select69"
+          },
+          {
+            "data-config" : {
+              "infoId" : -70,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox70"
+          },
+          {
+            "data-config" : {
+              "infoId" : -81,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select81"
+          },
+          {
+            "data-config" : {
+              "infoId" : -82,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select82"
+          },
+          {
+            "data-config" : {
+              "infoId" : -83,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox83"
+          },
+          {
+            "data-config" : {
+              "infoId" : -84,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select84"
+          },
+          {
+            "data-config" : {
+              "infoId" : -85,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select85"
+          },
+          {
+            "data-config" : {
+              "infoId" : -86,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox86"
+          },
+          {
+            "data-config" : {
+              "infoId" : -87,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox87"
+          },
+          {
+            "data-config" : {
+              "infoId" : -91,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select91"
+          },
+          {
+            "data-config" : {
+              "infoId" : -92,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select92"
+          },
+          {
+            "data-config" : {
+              "infoId" : -93,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox93"
+          },
+          {
+            "data-config" : {
+              "infoId" : -94,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox94"
+          },
+          {
+            "data-config" : {
+              "infoId" : -95,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select95"
+          },
+          {
+            "data-config" : {
+              "infoId" : -96,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox96"
+          },
+          {
+            "data-config" : {
+              "infoId" : -97,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox97"
+          },
+          {
+            "data-config" : {
+              "infoId" : -98,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select98"
+          },
+          {
+            "data-config" : {
+              "infoId" : -99,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox99"
+          },
+          {
+            "data-config" : {
+              "infoId" : -100,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox100"
+          },
+          {
+            "data-config" : {
+              "infoId" : -101,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select101"
+          },
+          {
+            "data-config" : {
+              "infoId" : -102,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select102"
+          },
+          {
+            "data-config" : {
+              "infoId" : -103,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox103"
+          },
+          {
+            "data-config" : {
+              "infoId" : -111,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select111"
+          },
+          {
+            "data-config" : {
+              "infoId" : -112,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select112"
+          },
+          {
+            "data-config" : {
+              "infoId" : -113,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox113"
+          },
+          {
+            "data-config" : {
+              "infoId" : -114,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox114"
+          },
+          {
+            "data-config" : {
+              "infoId" : -115,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select115"
+          },
+          {
+            "data-config" : {
+              "infoId" : -116,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select116"
+          },
+          {
+            "data-config" : {
+              "infoId" : -117,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox117"
+          },
+          {
+            "data-config" : {
+              "infoId" : -151,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select151"
+          },
+          {
+            "data-config" : {
+              "infoId" : -152,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select152"
+          },
+          {
+            "data-config" : {
+              "infoId" : -153,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox153"
+          },
+          {
+            "data-config" : {
+              "infoId" : -154,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox154"
+          },
+          {
+            "data-config" : {
+              "infoId" : -155,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select155"
+          },
+          {
+            "data-config" : {
+              "infoId" : -156,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox156"
+          },
+          {
+            "data-config" : {
+              "infoId" : -157,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox157"
+          },
+          {
+            "data-config" : {
+              "infoId" : -158,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select158"
+          },
+          {
+            "data-config" : {
+              "infoId" : -159,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select159"
+          },
+          {
+            "data-config" : {
+              "infoId" : -160,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox160"
+          },
+          {
+            "data-config" : {
+              "infoId" : -171,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select171"
+          },
+          {
+            "data-config" : {
+              "infoId" : -172,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select172"
+          },
+          {
+            "data-config" : {
+              "infoId" : -173,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox173"
+          },
+          {
+            "data-config" : {
+              "infoId" : -181,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select181"
+          },
+          {
+            "data-config" : {
+              "infoId" : -182,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select182"
+          },
+          {
+            "data-config" : {
+              "infoId" : -183,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox183"
+          },
+          {
+            "data-config" : {
+              "infoId" : -184,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox184"
+          },
+          {
+            "data-config" : {
+              "infoId" : -185,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select185"
+          },
+          {
+            "data-config" : {
+              "infoId" : -186,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select186"
+          },
+          {
+            "data-config" : {
+              "infoId" : -187,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox187"
+          },
+          {
+            "data-config" : {
+              "infoId" : -201,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select201"
+          },
+          {
+            "data-config" : {
+              "infoId" : -202,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select202"
+          },
+          {
+            "data-config" : {
+              "infoId" : -203,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox203"
+          },
+          {
+            "data-config" : {
+              "infoId" : -204,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox204"
+          },
+          {
+            "data-config" : {
+              "infoId" : -205,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select205"
+          },
+          {
+            "data-config" : {
+              "infoId" : -206,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox206"
+          },
+          {
+            "data-config" : {
+              "infoId" : -207,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox207"
+          },
+          {
+            "data-config" : {
+              "infoId" : -208,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select208"
+          },
+          {
+            "data-config" : {
+              "infoId" : -209,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select209"
+          },
+          {
+            "data-config" : {
+              "infoId" : -210,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox210"
+          },
+          {
+            "data-config" : {
+              "infoId" : -231,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select231"
+          },
+          {
+            "data-config" : {
+              "infoId" : -232,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select232"
+          },
+          {
+            "data-config" : {
+              "infoId" : -233,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox233"
+          },
+          {
+            "data-config" : {
+              "infoId" : -234,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox234"
+          },
+          {
+            "data-config" : {
+              "infoId" : -235,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select235"
+          },
+          {
+            "data-config" : {
+              "infoId" : -236,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select236"
+          },
+          {
+            "data-config" : {
+              "infoId" : -237,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox237"
+          },
+          {
+            "data-config" : {
+              "infoId" : -251,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select251"
+          },
+          {
+            "data-config" : {
+              "infoId" : -252,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select252"
+          },
+          {
+            "data-config" : {
+              "infoId" : -253,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox253"
+          },
+          {
+            "data-config" : {
+              "infoId" : -301,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select301"
+          },
+          {
+            "data-config" : {
+              "infoId" : -302,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select302"
+          },
+          {
+            "data-config" : {
+              "infoId" : -303,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox303"
+          },
+          {
+            "data-config" : {
+              "infoId" : -304,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox304"
+          },
+          {
+            "data-config" : {
+              "infoId" : -305,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select305"
+          },
+          {
+            "data-config" : {
+              "infoId" : -306,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select306"
+          },
+          {
+            "data-config" : {
+              "infoId" : -307,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox307"
+          },
+          {
+            "data-config" : {
+              "infoId" : -351,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select351"
+          },
+          {
+            "data-config" : {
+              "infoId" : -352,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select352"
+          },
+          {
+            "data-config" : {
+              "infoId" : -353,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox353"
+          },
+          {
+            "data-config" : {
+              "infoId" : -354,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox354"
+          },
+          {
+            "data-config" : {
+              "infoId" : -355,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select355"
+          },
+          {
+            "data-config" : {
+              "infoId" : -356,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox356"
+          },
+          {
+            "data-config" : {
+              "infoId" : -357,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox357"
+          },
+          {
+            "data-config" : {
+              "infoId" : -358,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select358"
+          },
+          {
+            "data-config" : {
+              "infoId" : -359,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select359"
+          },
+          {
+            "data-config" : {
+              "infoId" : -360,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox360"
+          },
+          {
+            "data-config" : {
+              "infoId" : -381,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select381"
+          },
+          {
+            "data-config" : {
+              "infoId" : -382,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select382"
+          },
+          {
+            "data-config" : {
+              "infoId" : -383,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox383"
+          },
+          {
+            "data-config" : {
+              "infoId" : -384,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox384"
+          },
+          {
+            "data-config" : {
+              "infoId" : -385,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select385"
+          },
+          {
+            "data-config" : {
+              "infoId" : -386,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select386"
+          },
+          {
+            "data-config" : {
+              "infoId" : -387,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox387"
+          },
+          {
+            "data-config" : {
+              "infoId" : -401,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select401"
+          },
+          {
+            "data-config" : {
+              "infoId" : -402,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select402"
+          },
+          {
+            "data-config" : {
+              "infoId" : -403,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox403"
+          },
+          {
+            "data-config" : {
+              "infoId" : -404,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox404"
+          },
+          {
+            "data-config" : {
+              "infoId" : -405,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select405"
+          },
+          {
+            "data-config" : {
+              "infoId" : -406,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox406"
+          },
+          {
+            "data-config" : {
+              "infoId" : -407,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox407"
+          },
+          {
+            "data-config" : {
+              "infoId" : -408,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select408"
+          },
+          {
+            "data-config" : {
+              "infoId" : -409,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select409"
+          },
+          {
+            "data-config" : {
+              "infoId" : -410,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox410"
+          },
+          {
+            "data-config" : {
+              "infoId" : -451,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select451"
+          },
+          {
+            "data-config" : {
+              "infoId" : -452,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select452"
+          },
+          {
+            "data-config" : {
+              "infoId" : -453,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox453"
+          },
+          {
+            "data-config" : {
+              "infoId" : -501,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select501"
+          },
+          {
+            "data-config" : {
+              "infoId" : -502,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select502"
+          },
+          {
+            "data-config" : {
+              "infoId" : -503,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox503"
+          },
+          {
+            "data-config" : {
+              "infoId" : -504,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select504"
+          },
+          {
+            "data-config" : {
+              "infoId" : -505,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox505"
+          },
+          {
+            "data-config" : {
+              "infoId" : -506,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select506"
+          },
+          {
+            "data-config" : {
+              "infoId" : -507,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox507"
+          },
+          {
+            "data-config" : {
+              "infoId" : -508,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select508"
+          },
+          {
+            "data-config" : {
+              "infoId" : -509,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox509"
+          },
+          {
+            "data-config" : {
+              "infoId" : -510,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select510"
+          },
+          {
+            "data-config" : {
+              "infoId" : -511,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "select511"
+          },
+          {
+            "data-config" : {
+              "infoId" : -512,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox512"
+          },
+          {
+            "data-config" : {
+              "infoId" : -513,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "checkBox513"
+          },
+          {
+            "data-config" : {
+              "infoId" : -2900,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "ghiChu"
+          },
+          {
+            "data-config" : {
+              "infoId" : -30,
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "requestor"
+          },
+          {
+            "data-config" : {
+              "phaseId" : -1640,
+              "property-name" : "signature",
+              "type" : "PHASE_PROPERTY"
+            },
+            "name" : "imgRequestor"
+          },
+          {
+            "data-config" : {
+              "infoId" : -3000,
+              "property-name" : "signature",
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "sigRequestor"
+          },
+          {
+            "data-config" : {
+              "infoId" : -4000,
+              "property-name" : "signature",
+              "type" : "TICKET_DETAIL",
+              "dataset" : "INDIVIDUAL"
+            },
+            "name" : "sigChecker"
+          }
+        ],
+        "template-url" : "https://hurc1.fptspro.com/plugins/servlet/sms-attachment?id=911&fileName=CongTacKiemTraHeThongTelecom1Nam.vm",
+        "landscape" : false
+      },
+      "configId" : 166,
+      "autocreate" : true,
+      "id" : -1660,
+      "status" : "Waiting",
+      "role_config" : {
+        "functions" : [
+          {
+            "role_type_to_add" : "implementer",
+            "id" : 3,
+            "params" : [
+              {
+                "infoId" : -40,
+                "name" : "info",
+                "type" : "INPUT",
+                "dataset" : "INDIVIDUAL"
+              }
+            ]
+          }
+        ],
+        "provider_id" : [ ]
+      }
+    },
+    {
+      "summary" : "Kết Thúc",
+      "configId" : 165,
+      "roles" : {
+        "assigner" : [ ],
+        "implementer" : [ ]
+      },
+      "autocreate" : true,
+      "id" : -1650,
+      "type" : "phase",
+      "isDone" : false,
+      "phaseType" : "Close",
+      "status" : "Waiting",
+      "role_config" : { }
+    }
+  ],
+  "relationships" : [
+    {
+      "configId" : 153,
+      "autocreate" : true,
+      "display" : true,
+      "from" : -1640,
+      "id" : -16401660,
+      "to" : -1660,
+      "type" : "default",
+      "status" : "finished"
+    },
+    {
+      "configId" : 154,
+      "autocreate" : true,
+      "display" : true,
+      "from" : -1660,
+      "id" : -16601650,
+      "to" : -1650,
+      "detail" : {
+        "individual" : [
+          {
+            "configId" : 341,
+            "name" : "Note",
+            "additionalDisplayClass" : "left-info",
+            "id" : -3410,
+            "position" : 10,
+            "type" : "textarea",
+            "conditions" : {
+              "max-length" : 255,
+              "required" : false,
+              "min-length" : 0
+            }
+          }
+        ]
+      },
+      "type" : "approval",
+      "status" : "waiting"
+    }
+  ],
+  "notification_config" : {
+    "approvers_pending_mail_template" : 24,
+    "ticket_response_mail_template" : 12,
+    "comment_mail_template" : 32,
+    "viewers_assignment_mail_template" : 34,
+    "ticket_result_reject_mail_template" : 19,
+    "new_performer_phase_reassignment_mail_template" : 21,
+    "creator_rejected_mail_template" : 31,
+    "ticket_share_mail_template" : 37,
+    "ticket_creation_mail_template" : 10,
+    "ticket_finish_inform_mail_template" : 30,
+    "relationship_result_reject_mail_template" : 20,
+    "creator_approved_mail_template" : 33,
+    "mention_mail_template" : 18,
+    "co_execute_rejection_mail_template" : 35,
+    "implementation_reminder_mail_template" : 28,
+    "ticket_cancellation_mail_template" : 14,
+    "creator_requested_update_mail_template" : 23,
+    "approval_input_finish_mail_template" : 26,
+    "co_execute_request_to_update_mail_template" : 36,
+    "old_performer_phase_reassignment_mail_template" : 22,
+    "watchers_ticket_auto_closing_mail_template" : 17,
+    "approval_reminder_no_token_mail_template" : 39,
+    "watchers_ticket_creation_mail_template" : 11,
+    "watchers_ticket_cancellation_mail_template" : 15,
+    "approval_reminder_mail_template" : 27,
+    "confirmation_reminder_mail_template" : 29,
+    "phase_input_finish_mail_template" : 25,
+    "phase_finished_mail_template" : 40,
+    "watchers_ticket_closing_mail_template" : 16,
+    "watchers_ticket_response_mail_template" : 13,
+    "phase_approve_finished_mail_template" : 41
+  },
+  "display" : [
+    {
+      "image" : "https://hurc1.fptspro.com/plugins/servlet/sms-attachment?id=187&fileName=iconMan.png",
+      "configId" : 164,
+      "positions" : [
+        323,
+        70
+      ],
+      "id" : -1640
+    },
+    {
+      "image" : "https://hurc1.fptspro.com/plugins/servlet/sms-attachment?id=186&fileName=iconMale.png",
+      "configId" : 166,
+      "positions" : [
+        328,
+        184
+      ],
+      "id" : -1660
+    },
+    {
+      "image" : "/images/workflowimage/Flag.png",
+      "configId" : 165,
+      "positions" : [
+        326,
+        310
+      ],
+      "id" : -1650
+    }
+  ]
+}

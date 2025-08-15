@@ -1,0 +1,217 @@
+{
+  "relatives" : [
+    {
+      "owner" : "khanhnq",
+      "summary" : "Ticket Detail",
+      "configId" : 185,
+      "roles" : {
+        "assigner" : [ ],
+        "implementer" : [ ]
+      },
+      "autocreate" : true,
+      "id" : -1850,
+      "type" : "ticket",
+      "isDone" : true,
+      "status" : "Opened",
+      "role_config" : { }
+    },
+    {
+      "owner" : "khanhnq",
+      "summary" : "IT",
+      "configId" : 186,
+      "roles" : {
+        "assigner" : [ ],
+        "implementer" : [ ]
+      },
+      "autocreate" : true,
+      "sla" : {
+        "res" : 2,
+        "fix" : 8
+      },
+      "id" : -1860,
+      "type" : "phase",
+      "isDone" : false,
+      "phaseType" : "Implement",
+      "status" : "Waiting",
+      "role_config" : { }
+    },
+    {
+      "owner" : "khanhnq",
+      "summary" : "IT",
+      "configId" : 190,
+      "roles" : {
+        "assigner" : [ ],
+        "implementer" : [ ]
+      },
+      "autocreate" : true,
+      "sla" : {
+        "res" : 2,
+        "fix" : 8
+      },
+      "id" : -1900,
+      "type" : "phase",
+      "isDone" : false,
+      "phaseType" : "Implement",
+      "status" : "Waiting",
+      "role_config" : { }
+    },
+    {
+      "owner" : "khanhnq",
+      "summary" : "IT",
+      "configId" : 192,
+      "roles" : {
+        "assigner" : [ ],
+        "implementer" : [ ]
+      },
+      "autocreate" : true,
+      "sla" : {
+        "res" : 2,
+        "fix" : 8
+      },
+      "id" : -1920,
+      "type" : "phase",
+      "isDone" : false,
+      "phaseType" : "Implement",
+      "status" : "Waiting",
+      "role_config" : { }
+    },
+    {
+      "owner" : "khanhnq",
+      "summary" : "User Confirm",
+      "configId" : 188,
+      "roles" : {
+        "assigner" : [ ],
+        "implementer" : [ ]
+      },
+      "autocreate" : true,
+      "id" : -1880,
+      "type" : "phase",
+      "isDone" : false,
+      "phaseType" : "Close",
+      "status" : "Waiting",
+      "role_config" : { }
+    }
+  ],
+  "relationships" : [
+    {
+      "configId" : 161,
+      "autocreate" : true,
+      "display" : true,
+      "from" : -1850,
+      "id" : -18501860,
+      "to" : -1860,
+      "type" : "default",
+      "status" : "finished"
+    },
+    {
+      "configId" : 162,
+      "autocreate" : true,
+      "display" : true,
+      "from" : -1860,
+      "id" : -18601900,
+      "to" : -1900,
+      "type" : "default",
+      "status" : "waiting"
+    },
+    {
+      "configId" : 166,
+      "autocreate" : true,
+      "display" : true,
+      "from" : -1900,
+      "id" : -19001920,
+      "to" : -1920,
+      "type" : "default",
+      "status" : "waiting"
+    },
+    {
+      "configId" : 167,
+      "autocreate" : true,
+      "display" : true,
+      "from" : -1920,
+      "id" : -19201880,
+      "to" : -1880,
+      "type" : "approval",
+      "status" : "waiting"
+    }
+  ],
+  "notification_config" : {
+    "approvers_pending_mail_template" : 24,
+    "ticket_response_mail_template" : 12,
+    "comment_mail_template" : 32,
+    "viewers_assignment_mail_template" : 34,
+    "ticket_result_reject_mail_template" : 19,
+    "new_performer_phase_reassignment_mail_template" : 21,
+    "creator_rejected_mail_template" : 31,
+    "ticket_share_mail_template" : 37,
+    "ticket_creation_mail_template" : 10,
+    "ticket_finish_inform_mail_template" : 30,
+    "relationship_result_reject_mail_template" : 20,
+    "creator_approved_mail_template" : 33,
+    "mention_mail_template" : 18,
+    "co_execute_rejection_mail_template" : 35,
+    "implementation_reminder_mail_template" : 28,
+    "ticket_cancellation_mail_template" : 14,
+    "creator_requested_update_mail_template" : 23,
+    "approval_input_finish_mail_template" : 26,
+    "co_execute_request_to_update_mail_template" : 36,
+    "old_performer_phase_reassignment_mail_template" : 22,
+    "watchers_ticket_auto_closing_mail_template" : 17,
+    "approval_reminder_no_token_mail_template" : 39,
+    "watchers_ticket_creation_mail_template" : 11,
+    "watchers_ticket_cancellation_mail_template" : 15,
+    "approval_reminder_mail_template" : 27,
+    "confirmation_reminder_mail_template" : 29,
+    "phase_input_finish_mail_template" : 25,
+    "phase_finished_mail_template" : 40,
+    "watchers_ticket_closing_mail_template" : 16,
+    "watchers_ticket_response_mail_template" : 13,
+    "phase_approve_finished_mail_template" : 41
+  },
+  "display" : [
+    {
+      "image" : "/images/workflowimage/Plus.png",
+      "configId" : 185,
+      "positions" : [
+        35,
+        59
+      ],
+      "id" : -1850
+    },
+    {
+      "image" : "/images/workflowimage/IT.png",
+      "configId" : 186,
+      "positions" : [
+        206,
+        81
+      ],
+      "id" : -1860
+    },
+    {
+      "image" : "/images/workflowimage/IT.png",
+      "configId" : 190,
+      "positions" : [
+        340,
+        149
+      ],
+      "id" : -1900
+    },
+    {
+      "image" : "/images/workflowimage/IT.png",
+      "configId" : 192,
+      "positions" : [
+        500,
+        168
+      ],
+      "id" : -1920
+    },
+    {
+      "image" : "/images/workflowimage/Flag.png",
+      "configId" : 188,
+      "positions" : [
+        614,
+        164
+      ],
+      "id" : -1880
+    }
+  ]
+}
